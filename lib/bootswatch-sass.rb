@@ -2,6 +2,7 @@ require "bootswatch-sass/version"
 
 module Bootswatch
   module Sass
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
