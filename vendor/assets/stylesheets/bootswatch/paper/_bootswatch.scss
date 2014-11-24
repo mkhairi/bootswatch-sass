@@ -10,11 +10,11 @@
   border: none;
   @include box-shadow(0 1px 2px rgba(0,0,0,.3));
 
-  &-brand {
+  .navbar-brand {
     font-size: 24px;
   }
 
-  &-inverse {
+  .navbar-inverse {
     .form-control {
       color: #fff;
       @include placeholder($navbar-inverse-link-color);
@@ -29,7 +29,7 @@
     }
   }
 
-  &-nav > li > .dropdown-menu {
+  .navbar-nav > li > .dropdown-menu {
     margin-top: 2px;
   }
 }
@@ -71,7 +71,7 @@
   @include box-shadow(1px 1px 2px rgba(0,0,0,.3));
   @include transition(all 0.2s);
 
-  &-link {
+  .btn-link {
     @include box-shadow(none);
 
     &:hover,
@@ -81,7 +81,7 @@
     }
   }
 
-  &-default.disabled {
+  .btn-default.disabled {
     border: 1px solid $btn-default-border;
   }
 }
@@ -240,19 +240,19 @@ select.form-control {
   border: none;
   color: #fff;
 
-  &-success {
+  .alert-success {
     background-color: $brand-success;
   }
 
-  &-info {
+  .alert-info {
     background-color: $brand-info;
   }
 
-  &-warning {
+  .alert-warning {
     background-color: $brand-warning;
   }
 
-  &-danger {
+  .alert-danger {
     background-color: $brand-danger;
   }
 
@@ -279,7 +279,7 @@ select.form-control {
 
   @include box-shadow(none);
 
-  &-bar {
+  .progress-bar {
     @include box-shadow(none);
 
     &:last-child {
@@ -300,18 +300,18 @@ select.form-control {
         }
     }
     
-    &-success:last-child.progress-bar:before {
+    &-bar-success:last-child.progress-bar:before {
       background-color: lighten($brand-success, 35%);
     }
     
-    &-info:last-child.progress-bar:before {
+    &-bar-info:last-child.progress-bar:before {
       background-color: lighten($brand-info, 45%);
     }
-    &-warning:last-child.progress-bar:before {
+    &-bar-warning:last-child.progress-bar:before {
       background-color: lighten($brand-warning, 35%);
     }
     
-    &-danger:last-child.progress-bar:before {
+    &-bar-danger:last-child.progress-bar:before {
       background-color: lighten($brand-danger, 25%);
     }
   }
@@ -334,11 +334,11 @@ select.form-control {
 
 .list-group {
 
-  &-item {
+  .list-group-item {
     padding: 15px;
   }
 
-  &-item-text {
+  .list-group-item-text {
     color: $gray-light;
   }
 }
@@ -353,15 +353,15 @@ select.form-control {
   border-radius: 2px;
   @include box-shadow(0 1px 4px rgba(0,0,0,.3));
 
-  &-heading {
+  .panel-heading {
     border-bottom: none;
   }
 
-  &-footer {
+  .panel-footer {
     border-top: none;
   }
 
-  &-success {
+  .panel-success {
     .panel-heading {
       background-color: $brand-success;
     }
@@ -371,7 +371,7 @@ select.form-control {
     }
   }
 
-  &-info {
+  .panel-info {
     .panel-heading {
       background-color: $brand-info;
     }
@@ -381,7 +381,7 @@ select.form-control {
     }
   }
 
-  &-warning {
+  .panel-warning {
     .panel-heading {
       background-color: $brand-warning;
     }
@@ -391,7 +391,7 @@ select.form-control {
     }
   }
 
-  &-danger {
+  .panel-danger {
     .panel-heading {
       background-color: $brand-danger;
     }

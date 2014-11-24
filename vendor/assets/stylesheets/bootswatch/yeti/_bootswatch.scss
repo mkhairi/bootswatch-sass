@@ -15,7 +15,7 @@
     background-color: #b3b3b3;
   }
 
-  &-collapse {
+  .navbar-collapse {
     border-top-color: $dropdown-divider-bg;
     @include box-shadow(none);
   }
@@ -25,7 +25,7 @@
     padding-bottom: 6px;
   }
 
-  &-form {
+  .navbar-form {
     margin-top: 7px;
     margin-bottom: 5px;
 
@@ -37,7 +37,7 @@
 
   .dropdown {
 
-    &-menu {
+    .dropdown-menu {
       border: none;
 
       > li > a,
@@ -48,13 +48,13 @@
       }
     }
 
-    &-header {
+    .dropdown-header {
       color: rgba(255, 255, 255, 0.5);
     }
 
   }
 
-  &-default {
+  .navbar-default {
 
     .dropdown-menu {
       background-color: $navbar-default-bg;
@@ -72,7 +72,7 @@
     }
   }
 
-  &-inverse {
+  .navbar-inverse {
 
     .dropdown-menu {
       background-color: $navbar-inverse-bg;
@@ -96,15 +96,15 @@
 .btn {
   padding: $padding-base-vertical $padding-base-horizontal;
 
-  &-lg {
+  .btn-lg {
     padding: $padding-large-vertical $padding-large-horizontal;
   }
 
-  &-sm {
+  .btn-sm {
     padding: $padding-small-vertical $padding-small-horizontal;
   }
 
-  &-xs {
+  .btn-xs {
     padding: $padding-xs-vertical $padding-xs-horizontal;
   }
 }
@@ -317,12 +317,12 @@ input[type="checkbox"] {
     }
   }
 
-  &-lg > li > a {
+  .pagination-lg > li > a {
     padding-left: 22px;
     padding-right: 22px;
   }
 
-  &-sm > li > a {
+  .pagination-sm > li > a {
     padding: 0 5px;
   }
 }
@@ -368,7 +368,7 @@ input[type="checkbox"] {
   border-radius: 0;
   font-weight: 300;
 
-  &-default {
+  .label-default {
     background-color: $btn-default-bg;
     color: $btn-default-color;
   }
@@ -392,7 +392,7 @@ input[type="checkbox"] {
 
 .dropdown {
 
-  &-menu {
+  .dropdown-menu {
     padding: 0;
     margin-top: 0;
     font-size: $font-size-small;
@@ -402,7 +402,7 @@ input[type="checkbox"] {
     }
   }
 
-  &-header {
+  .dropdown-header {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 9px;
@@ -417,13 +417,13 @@ input[type="checkbox"] {
 }
 
 .panel {
-  &-heading,
-  &-footer {
+  .panel-heading,
+  .panel-footer {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
 
-  &-default {
+  .panel-default {
     .close {
       color: $text-color;
     }

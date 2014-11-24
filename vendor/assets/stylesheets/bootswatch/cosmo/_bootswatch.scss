@@ -8,7 +8,7 @@
 
 .navbar {
 
-  &-inverse {
+  .navbar-inverse {
 
     .badge {
       background-color: #fff;
@@ -177,13 +177,13 @@ table,
 // Containers =================================================================
 
 .panel {
-  &-heading,
-  &-footer {
+  .panel-heading,
+  .panel-footer {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
 
-  &-default {
+  .panel-default {
     .close {
       color: $text-color;
     }
@@ -192,7 +192,7 @@ table,
 
 a.list-group-item {
 
-  &-success {
+  a.list-group-item-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -203,7 +203,7 @@ a.list-group-item {
     }
   }
 
-  &-warning {
+  a.list-group-item-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -214,7 +214,7 @@ a.list-group-item {
     }
   }
 
-  &-danger {
+  a.list-group-item-danger {
     &.active {
       background-color: $state-danger-bg;
     }

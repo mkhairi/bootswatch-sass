@@ -168,7 +168,7 @@ a.list-group-item {
     border-color: $list-group-border;
   }
 
-  &-success {
+  a.list-group-item-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -179,7 +179,7 @@ a.list-group-item {
     }
   }
 
-  &-warning {
+  a.list-group-item-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -190,7 +190,7 @@ a.list-group-item {
     }
   }
 
-  &-danger {
+  a.list-group-item-danger {
     &.active {
       background-color: $state-danger-bg;
     }

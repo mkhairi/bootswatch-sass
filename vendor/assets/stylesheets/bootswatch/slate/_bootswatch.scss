@@ -20,7 +20,7 @@
   border: 1px solid rgba(0, 0, 0, 0.6);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 
-  &-inverse {
+  .navbar-inverse {
     @include btn-shadow($navbar-inverse-bg);
 
     .badge {
@@ -28,7 +28,7 @@
     }
   }
 
-  &-nav > li > a {
+  .navbar-nav > li > a {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -42,11 +42,11 @@
     border-color: transparent;
   }
 
-  &-nav > li.active > a {
+  .navbar-nav > li.active > a {
     border-left-color: transparent;
   }
 
-  &-form {
+  .navbar-form {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
   }
 
-  &-bordered tbody {
+  .table-bordered tbody {
 
     tr.success,
     tr.warning,
@@ -367,7 +367,7 @@ a.list-group-item {
     border-color: $list-group-border;
   }
 
-  &-success {
+  a.list-group-item-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -378,7 +378,7 @@ a.list-group-item {
     }
   }
 
-  &-warning {
+  a.list-group-item-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -389,7 +389,7 @@ a.list-group-item {
     }
   }
 
-  &-danger {
+  a.list-group-item-danger {
     &.active {
       background-color: $state-danger-bg;
     }

@@ -15,7 +15,7 @@
   filter: none;
   @include box-shadow(0 1px 10px rgba(0, 0, 0, 0.1));
 
-  &-default {
+  .navbar-default {
 
     .badge {
       background-color: #fff;
@@ -23,7 +23,7 @@
     }
   }
 
-  &-inverse {
+  .navbar-inverse {
     @include gradient-vertical-three-colors(lighten($navbar-inverse-bg, 8%), lighten($navbar-inverse-bg, 4%), 60%, darken($navbar-inverse-bg, 2%));
     filter: none;
     border-bottom: 1px solid darken($navbar-inverse-bg, 10%);
@@ -35,7 +35,7 @@
   }
 
   .navbar-nav > li > a,
-  &-brand {
+  .navbar-brand {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   }
 }

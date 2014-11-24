@@ -18,8 +18,8 @@
     @extend .sandstone;
   }
 
-  &-form input,
-  &-form .form-control {
+  .navbar-form input,
+  .navbar-form .form-control {
     border: none;
   }
 }
@@ -34,11 +34,11 @@
     border-color: transparent;
   }
 
-  &-lg {
+  .btn-lg {
     line-height: 26px;
   }
 
-  &-default {
+  .btn-default {
     &:hover {
       background-color: $navbar-default-link-active-bg;
     }
@@ -158,7 +158,7 @@ input,
   background-color: $gray-light;
   @include box-shadow(none);
 
-  &-bar {
+  .progress-bar {
     @include box-shadow(none);
   }
 }
@@ -166,7 +166,7 @@ input,
 // Containers =================================================================
 
 .list-group {
-  &-item {
+  .list-group-item {
     padding: 16px 24px;
   }
 }
@@ -185,7 +185,7 @@ input,
     color: #fff;
   }
 
-  &-default {
+  .panel-default {
     .panel-heading,
     .panel-title,
     .panel-footer {

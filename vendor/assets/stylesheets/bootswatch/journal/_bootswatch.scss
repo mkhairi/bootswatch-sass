@@ -11,7 +11,7 @@
   font-family: $font-family-sans-serif;
   font-weight: $headings-font-weight;
 
-  &-default {
+  .navbar-default {
 
     .badge {
       background-color: #000;
@@ -19,7 +19,7 @@
     }
   }
 
-  &-inverse {
+  .navbar-inverse {
 
     .badge {
       background-color: #fff;
@@ -106,11 +106,11 @@
 
 .panel {
 
-  &-primary,
-  &-success,
-  &-warning,
-  &-danger,
-  &-info {
+  .panel-primary,
+  .panel-success,
+  .panel-warning,
+  .panel-danger,
+  .panel-info {
     .panel-title {
       color: #fff;
     }
