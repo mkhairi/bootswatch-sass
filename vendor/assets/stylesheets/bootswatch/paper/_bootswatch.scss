@@ -300,18 +300,18 @@ select.form-control {
         }
     }
     
-    &-bar-success:last-child.progress-bar:before {
+    .progress-bar-success:last-child.progress-bar:before {
       background-color: lighten($brand-success, 35%);
     }
     
-    &-bar-info:last-child.progress-bar:before {
+    .progress-bar-info:last-child.progress-bar:before {
       background-color: lighten($brand-info, 45%);
     }
-    &-bar-warning:last-child.progress-bar:before {
+    .progress-bar-warning:last-child.progress-bar:before {
       background-color: lighten($brand-warning, 35%);
     }
     
-    &-bar-danger:last-child.progress-bar:before {
+    .progress-bar-danger:last-child.progress-bar:before {
       background-color: lighten($brand-danger, 25%);
     }
   }
