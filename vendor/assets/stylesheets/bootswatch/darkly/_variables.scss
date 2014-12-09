@@ -128,7 +128,7 @@ $table-condensed-cell-padding:  5px !default;
 //** Default background color used for all tables.
 $table-bg:                      hsla(0, 100%, 100%, 0) !default;
 //** Background color used for `.table-striped`.
-$table-bg-accent:               $gray-dark !default;
+$table-bg-accent:               lighten($gray-dark, 5%) !default;
 //** Background color used for `.table-hover`.
 $table-bg-hover:                $gray !default;
 $table-bg-active:               $table-bg-hover !default;
@@ -449,7 +449,7 @@ $pagination-active-bg:                 lighten($brand-success, 6%) !default;
 $pagination-active-border:             hsla(0, 100%, 100%, 0) !default;
 
 $pagination-disabled-color:            #fff !default;
-$pagination-disabled-bg:               darken($brand-success, 15%) !default;;
+$pagination-disabled-bg:               darken($brand-success, 15%) !default;
 $pagination-disabled-border:           hsla(0, 100%, 100%, 0) !default;
 
 
