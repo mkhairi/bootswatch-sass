@@ -10,11 +10,11 @@
   border: none;
   @include box-shadow(0 1px 2px rgba(0,0,0,.3));
 
-  .navbar-brand {
+  &-brand {
     font-size: 24px;
   }
 
-  .navbar-inverse {
+  &-inverse {
     .form-control {
       color: #fff;
       @include placeholder($navbar-inverse-link-color);
@@ -29,7 +29,7 @@
     }
   }
 
-  .navbar-nav > li > .dropdown-menu {
+  &-nav > li > .dropdown-menu {
     margin-top: 2px;
   }
 }
@@ -71,7 +71,7 @@
   @include box-shadow(1px 1px 2px rgba(0,0,0,.3));
   @include transition(all 0.2s);
 
-  .btn-link {
+  &-link {
     @include box-shadow(none);
 
     &:hover,
@@ -81,7 +81,7 @@
     }
   }
 
-  .btn-default.disabled {
+  &-default.disabled {
     border: 1px solid $btn-default-border;
   }
 }
@@ -240,19 +240,19 @@ select.form-control {
   border: none;
   color: #fff;
 
-  .alert-success {
+  &-success {
     background-color: $brand-success;
   }
 
-  .alert-info {
+  &-info {
     background-color: $brand-info;
   }
 
-  .alert-warning {
+  &-warning {
     background-color: $brand-warning;
   }
 
-  .alert-danger {
+  &-danger {
     background-color: $brand-danger;
   }
 
@@ -279,7 +279,7 @@ select.form-control {
 
   @include box-shadow(none);
 
-  .progress-bar {
+  &-bar {
     @include box-shadow(none);
 
     &:last-child {
@@ -300,18 +300,18 @@ select.form-control {
         }
     }
     
-    .progress-bar-success:last-child.progress-bar:before {
+    &-success:last-child.progress-bar:before {
       background-color: lighten($brand-success, 35%);
     }
     
-    .progress-bar-info:last-child.progress-bar:before {
+    &-info:last-child.progress-bar:before {
       background-color: lighten($brand-info, 45%);
     }
-    .progress-bar-warning:last-child.progress-bar:before {
+    &-warning:last-child.progress-bar:before {
       background-color: lighten($brand-warning, 35%);
     }
     
-    .progress-bar-danger:last-child.progress-bar:before {
+    &-danger:last-child.progress-bar:before {
       background-color: lighten($brand-danger, 25%);
     }
   }
@@ -334,11 +334,11 @@ select.form-control {
 
 .list-group {
 
-  .list-group-item {
+  &-item {
     padding: 15px;
   }
 
-  .list-group-item-text {
+  &-item-text {
     color: $gray-light;
   }
 }
@@ -353,15 +353,15 @@ select.form-control {
   border-radius: 2px;
   @include box-shadow(0 1px 4px rgba(0,0,0,.3));
 
-  .panel-heading {
+  &-heading {
     border-bottom: none;
   }
 
-  .panel-footer {
+  &-footer {
     border-top: none;
   }
 
-  .panel-success {
+  &-success {
     .panel-heading {
       background-color: $brand-success;
     }
@@ -371,7 +371,7 @@ select.form-control {
     }
   }
 
-  .panel-info {
+  &-info {
     .panel-heading {
       background-color: $brand-info;
     }
@@ -381,7 +381,7 @@ select.form-control {
     }
   }
 
-  .panel-warning {
+  &-warning {
     .panel-heading {
       background-color: $brand-warning;
     }
@@ -391,7 +391,7 @@ select.form-control {
     }
   }
 
-  .panel-danger {
+  &-danger {
     .panel-heading {
       background-color: $brand-danger;
     }

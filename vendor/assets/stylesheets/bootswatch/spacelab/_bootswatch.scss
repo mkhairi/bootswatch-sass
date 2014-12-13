@@ -17,7 +17,7 @@
   @include btn-shadow($navbar-default-bg);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 
-  .navbar-inverse {
+  &-inverse {
     @include btn-shadow($navbar-inverse-bg);
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
@@ -31,15 +31,15 @@
     text-shadow: none;
   }
 
-  .navbar-nav > li > a,
-  .navbar-nav > li > a:hover {
+  &-nav > li > a,
+  &-nav > li > a:hover {
     padding-top: $navbar-padding-vertical + 2px;
     padding-bottom: $navbar-padding-vertical - 2px;
     @include transition(color ease-in-out .2s);
   }
   
-  .navbar-brand,
-  .navbar-brand:hover {
+  &-brand,
+  &-brand:hover {
     @include transition(color ease-in-out .2s);
   }
 
@@ -58,7 +58,7 @@
 .btn {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 
-  .btn-default {
+  &-default {
     @include btn-shadow($btn-default-bg);
 
     &:hover {
@@ -66,7 +66,7 @@
     }
   }
 
-  .btn-primary {
+  &-primary {
     @include btn-shadow($btn-primary-bg);
 
     &:hover {
@@ -74,7 +74,7 @@
     }
   }
 
-  .btn-success {
+  &-success {
     @include btn-shadow($btn-success-bg);
 
     &:hover {
@@ -82,7 +82,7 @@
     }
   }
 
-  .btn-info {
+  &-info {
     @include btn-shadow($btn-info-bg);
 
     &:hover {
@@ -90,7 +90,7 @@
     }
   }
 
-  .btn-warning {
+  &-warning {
     @include btn-shadow($btn-warning-bg);
 
     &:hover {
@@ -98,7 +98,7 @@
     }
   }
 
-  .btn-danger {
+  &-danger {
     @include btn-shadow($btn-danger-bg);
 
     &:hover {
@@ -129,7 +129,7 @@
 
 .panel {
 
-  .panel-primary {
+  &-primary {
     .panel-title {
       color: #fff;
     }

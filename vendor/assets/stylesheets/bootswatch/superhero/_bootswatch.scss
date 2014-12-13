@@ -11,7 +11,7 @@
   border: none;
   font-size: 12px;
 
-  .navbar-default {
+  &-default {
 
     .badge {
       background-color: #fff;
@@ -19,7 +19,7 @@
     }
   }
 
-  .navbar-inverse {
+  &-inverse {
 
     .badge {
       background-color: #fff;
@@ -34,14 +34,14 @@
 
   font-weight: 300;
 
-  .btn-default {
+  &-default {
     &:hover {
       background-color: darken($btn-default-bg, 3%);
     }
   }
 
-  .btn-sm,
-  .btn-xs {
+  &-sm,
+  &-xs {
     font-size: 12px;
   }
 }
@@ -266,7 +266,7 @@ a.list-group-item {
     border: none;
   }
 
-  a.list-group-item-success {
+  &-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -277,7 +277,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-warning {
+  &-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -288,7 +288,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-danger {
+  &-danger {
     &.active {
       background-color: $state-danger-bg;
     }
@@ -303,7 +303,7 @@ a.list-group-item {
 .panel {
   border: none;
 
-  .panel-default > .panel-heading {
+  &-default > .panel-heading {
     background-color: $table-bg-hover;
     color: $text-color;
   }
@@ -317,8 +317,8 @@ a.list-group-item {
 .modal {
   padding: 0;
 
-  .modal-header,
-  .modal-footer {
+  &-header,
+  &-footer {
     background-color: $table-bg-hover;
     border: none;
     border-radius: 0;
@@ -326,7 +326,7 @@ a.list-group-item {
 }
 
 .popover {
-  .popover-title {
+  &-title {
     border: none;
   }
 }

@@ -9,13 +9,13 @@
 .navbar {
   font-family: $headings-font-family;
 
-  .navbar-nav,
-  .navbar-form {
+  &-nav,
+  &-form {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .navbar-nav > li > a {
+  &-nav > li > a {
     padding: $padding-base-vertical $padding-base-horizontal;
     margin: 12px 6px;
     border: 1px solid transparent;
@@ -26,20 +26,20 @@
     }
   }
 
-  .navbar-nav > .active > a,
-  .navbar-nav > .active > a:hover {
+  &-nav > .active > a,
+  &-nav > .active > a:hover {
     border: 1px solid #ddd;
   }
 
-  .navbar-default .navbar-nav > .active > a:hover {
+  &-default .navbar-nav > .active > a:hover {
     color: $navbar-default-link-hover-color;
   }
 
-  .navbar-inverse .navbar-nav > .active > a:hover {
+  &-inverse .navbar-nav > .active > a:hover {
     color: $navbar-inverse-link-hover-color;
   }
 
-  .navbar-brand {
+  &-brand {
     padding-top: 20px;
   }
 }
@@ -86,8 +86,8 @@ legend {
 
   font-family: $headings-font-family;
 
-  .pagination-lg > li > a,
-  .pagination-lg > li > span {
+  &-lg > li > a,
+  &-lg > li > span {
     padding: 14px 24px;
   }
 }
@@ -136,7 +136,7 @@ legend {
   font-family: $headings-font-family;
   font-weight: normal;
 
-  .label-default {
+  &-default {
     border: 1px solid #ddd;
     color: $text-color;
   }
@@ -157,17 +157,17 @@ legend {
 .panel {
   @include box-shadow(none);
 
-  .panel-default {
+  &-default {
     .close {
       color: $text-color;
     }
   }
 
-  .panel-primary,
-  .panel-success,
-  .panel-warning,
-  .panel-danger,
-  .panel-info {
+  &-primary,
+  &-success,
+  &-warning,
+  &-danger,
+  &-info {
     .panel-heading {
       color: #fff;
     }

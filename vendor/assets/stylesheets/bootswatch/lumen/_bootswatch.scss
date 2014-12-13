@@ -34,65 +34,65 @@
     @include box-shadow(none);
   }
 
-  .btn-lg,
-  .btn-group-lg > .btn {
+  &-lg,
+  &-group-lg > .btn {
     padding: $padding-large-vertical+2 $padding-large-horizontal $padding-large-vertical;
     line-height: 15px;
   }
 
-  .btn-sm,
-  .btn-group-sm > .btn {
+  &-sm,
+  &-group-sm > .btn {
     padding: $padding-small-vertical+2 $padding-small-horizontal $padding-small-vertical;
   }
 
-  .btn-xs,
-  .btn-group-xs > .btn {
+  &-xs,
+  &-group-xs > .btn {
     padding: $padding-xs-vertical+2 $padding-xs-horizontal $padding-xs-vertical;
   }
 
-  .btn-default:hover,
-  .btn-default:focus,
-  .btn-group.open .dropdown-toggle.btn-default {
+  &-default:hover,
+  &-default:focus,
+  &-group.open .dropdown-toggle.btn-default {
     background-color: $btn-default-bg;
     border-color: $btn-default-border;
   }
 
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-group.open .dropdown-toggle.btn-primary {
+  &-primary:hover,
+  &-primary:focus,
+  &-group.open .dropdown-toggle.btn-primary {
     background-color: $btn-primary-bg;
     border-color: $btn-primary-border;
   }
 
-  .btn-success:hover,
-  .btn-success:focus,
-  .btn-group.open .dropdown-toggle.btn-success {
+  &-success:hover,
+  &-success:focus,
+  &-group.open .dropdown-toggle.btn-success {
     background-color: $btn-success-bg;
     border-color: $btn-success-border;
   }
 
-  .btn-info:hover,
-  .btn-info:focus,
-  .btn-group.open .dropdown-toggle.btn-info {
+  &-info:hover,
+  &-info:focus,
+  &-group.open .dropdown-toggle.btn-info {
     background-color: $btn-info-bg;
     border-color: $btn-info-border;
   }
 
-  .btn-warning:hover,
-  .btn-warning:focus,
-  .btn-group.open .dropdown-toggle.btn-warning {
+  &-warning:hover,
+  &-warning:focus,
+  &-group.open .dropdown-toggle.btn-warning {
     background-color: $btn-warning-bg;
     border-color: $btn-warning-border;
   }
 
-  .btn-danger:hover,
-  .btn-danger:focus,
-  .btn-group.open .dropdown-toggle.btn-danger {
+  &-danger:hover,
+  &-danger:focus,
+  &-group.open .dropdown-toggle.btn-danger {
     background-color: $btn-danger-bg;
     border-color: $btn-danger-border;
   }
 
-  .btn-group.open .dropdown-toggle {
+  &-group.open .dropdown-toggle {
     @include box-shadow(none);
   }
 }
@@ -400,7 +400,7 @@ label {
   border: 1px solid $navbar-default-border;
   @include box-shadow(inset 0 2px 0 rgba(0, 0, 0, 0.1));
 
-  .progress-bar {
+  &-bar {
     @include box-shadow(inset 0 -4px 0 rgba(0, 0, 0, 0.15));
   }
 }
@@ -420,7 +420,7 @@ a.list-group-item {
     border-color: $list-group-border;
   }
 
-  a.list-group-item-success {
+  &-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -431,7 +431,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-warning {
+  &-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -442,7 +442,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-danger {
+  &-danger {
     &.active {
       background-color: $state-danger-bg;
     }
@@ -463,7 +463,7 @@ a.list-group-item {
   border: 1px solid $navbar-default-border;
   @include shadow();
 
-  .panel-default {
+  &-default {
     .close {
       color: $text-color;
     }

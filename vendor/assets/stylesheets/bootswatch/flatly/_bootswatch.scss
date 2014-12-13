@@ -9,7 +9,7 @@
 .navbar {
   border-width: 0;
 
-  .navbar-default {
+  &-default {
 
     .badge {
       background-color: #fff;
@@ -17,7 +17,7 @@
     }
   }
 
-  .navbar-inverse {
+  &-inverse {
 
     .badge {
       background-color: #fff;
@@ -25,7 +25,7 @@
     }
   }
 
-  .navbar-brand {
+  &-brand {
     padding: 18.5px 15px 20.5px;
   }
 }
@@ -100,12 +100,12 @@ table,
     border: none;
   }
 
-  .table-bordered > thead > tr > th,
-  .table-bordered > tbody > tr > th,
-  .table-bordered > tfoot > tr > th,
-  .table-bordered > thead > tr > td,
-  .table-bordered > tbody > tr > td,
-  .table-bordered > tfoot > tr > td {
+  &-bordered > thead > tr > th,
+  &-bordered > tbody > tr > th,
+  &-bordered > tfoot > tr > th,
+  &-bordered > thead > tr > td,
+  &-bordered > tbody > tr > td,
+  &-bordered > tfoot > tr > td {
     border: 1px solid $table-border-color;
   }
 }
@@ -258,7 +258,7 @@ a.list-group-item {
     border-color: $list-group-border;
   }
 
-  a.list-group-item-success {
+  &-success {
     &.active {
       background-color: $state-success-bg;
     }
@@ -269,7 +269,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-warning {
+  &-warning {
     &.active {
       background-color: $state-warning-bg;
     }
@@ -280,7 +280,7 @@ a.list-group-item {
     }
   }
 
-  a.list-group-item-danger {
+  &-danger {
     &.active {
       background-color: $state-danger-bg;
     }
@@ -293,7 +293,7 @@ a.list-group-item {
 }
 
 .panel {
-  .panel-default {
+  &-default {
     .close {
       color: $text-color;
     }

@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sass-rails', '~> 5.0.0.beta1'
+gem 'sass-rails', '~> 5.0.0'
 gem 'bootstrap-sass'
 gem 'bootswatch-sass', git: 'git://github.com/mkhairi/bootswatch-sass.git'
 ```

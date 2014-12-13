@@ -8,7 +8,7 @@
 
 .navbar {
 
-  .navbar-default {
+  &-default {
 
     .badge {
       background-color: #fff;
@@ -16,7 +16,7 @@
     }
   }
 
-  .navbar-inverse {
+  &-inverse {
 
     .badge {
       background-color: #fff;
