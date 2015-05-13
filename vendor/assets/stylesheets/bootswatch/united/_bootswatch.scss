@@ -2,7 +2,7 @@
 // Bootswatch
 // -----------------------------------------------------
 
-@import url("//fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 // Navbar =====================================================================
 
@@ -24,6 +24,19 @@
     }
   }
 }
+
+@media (max-width: $grid-float-breakpoint-max) {
+
+  .navbar {
+
+    .dropdown-menu {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
 
 // Buttons ====================================================================
 
