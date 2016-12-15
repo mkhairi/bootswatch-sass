@@ -1,4 +1,4 @@
-# Bootswatch::Sass
+# Bootswatch ruby gem
 
 [Bootswatch](http://bootswatch.com) is a collection of free themes for [Bootstrap](http://getbootstrap.com/). 
 
@@ -7,9 +7,8 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sass-rails', '~> 5.0.0'
-gem 'bootstrap-sass'
-gem 'bootswatch-sass', git: 'git://github.com/mkhairi/bootswatch-sass.git'
+gem 'bootstrap'
+gem 'bootswatch', git: 'git://github.com/mkhairi/bootswatch-sass.git'
 ```
 
 And then execute:
@@ -18,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bootswatch-sass
+    $ gem install bootswatch
 
 ## Usage
 
@@ -33,14 +32,13 @@ $state-danger-bg: #ff4136;
 // end example override
 // import scss file
 @import "bootswatch/paper/variables";
-@import "bootstrap-sprockets";
 @import "bootstrap";
 @import "bootswatch/paper/bootswatch";
 ```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/bootswatch-sass/fork )
+1. Fork it ( https://github.com/mkhairi/bootswatch/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
