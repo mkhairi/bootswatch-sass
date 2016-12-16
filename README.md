@@ -31,9 +31,9 @@ $state-warning-bg: #fbe42c;
 $state-danger-bg: #ff4136;
 // end example override
 // import scss file
-@import "bootswatch/paper/variables";
+@import "bootswatch/materia/variables";
 @import "bootstrap";
-@import "bootswatch/paper/bootswatch";
+@import "bootswatch/materia/bootswatch";
 ```
 
 ## Contributing
