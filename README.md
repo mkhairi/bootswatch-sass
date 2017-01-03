@@ -1,6 +1,6 @@
 # Bootswatch ruby gem
 
-[Bootswatch](http://bootswatch.com) is a collection of free themes for [Bootstrap](http://getbootstrap.com/). 
+[Bootswatch](http://bootswatch.com/4-alpha/) is a collection of free themes for [Bootstrap](v4-alpha.getbootstrap.com). 
 
 ## Installation
 
@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'bootstrap'
-gem 'bootswatch', git: 'git://github.com/mkhairi/bootswatch-sass.git'
+gem 'bootswatch'
 ```
 
 And then execute:
