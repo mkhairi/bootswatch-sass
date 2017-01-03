@@ -1,26 +1,27 @@
 require "bundler/gem_tasks"
 
 THEMES = %w(
- cerulean    
- cosmo  
- custom  
+ cerulean     
+ cosmo 
+ custom 
  cyborg  
- darkly
- default  
- flatly  
- journal  
- lumen  
- lux  
+ darkly 
+ default   
+ flatly 
+ journal   
+ litera 
+ lumen 
+ lux 
  materia  
- minty  
- pulse
+ minty 
+ pulse 
  sandstone  
  simplex  
  slate  
  spacelab  
  superhero  
  united  
- yeti
+ yeti 
 ).freeze
 
 source_dir = "bootswatch-src" 
