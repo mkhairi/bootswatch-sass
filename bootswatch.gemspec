@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["khairi@labs.my"]
   spec.summary       = %q{Bootswatches sass for rails.}
   spec.description   = %q{Bootswatches in your Rails asset pipeline.}
-  spec.homepage      = "https://github.com/mkhairi/bootswatch"
+  spec.homepage      = "https://github.com/mkhairi/bootswatch-sass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
