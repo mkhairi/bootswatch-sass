@@ -17,6 +17,7 @@ THEMES = %w(
  pulse 
  sandstone  
  simplex  
+ solar
  slate  
  spacelab  
  superhero  

@@ -17,3 +17,4 @@ mkmf.log
 *.less
 *.png
 bootswatch-src
+*.gem
