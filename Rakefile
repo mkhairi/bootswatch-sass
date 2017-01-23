@@ -16,7 +16,8 @@ THEMES = %w(
  minty 
  pulse 
  sandstone  
- simplex  
+ simplex 
+ sketchy 
  solar
  slate  
  spacelab  
