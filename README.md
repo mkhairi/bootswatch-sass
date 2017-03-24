@@ -1,5 +1,4 @@
-# Bootswatch ruby gem
-[![Gem Version](https://badge.fury.io/rb/bootswatch.svg)](http://badge.fury.io/rb/bootswatch)
+# Bootswatch ruby gem [![Gem Version](https://badge.fury.io/rb/bootswatch.svg)](http://badge.fury.io/rb/bootswatch)
 
 [Bootswatch](http://bootswatch.com/4-alpha/) is a collection of free themes for [Bootstrap](v4-alpha.getbootstrap.com). 
 
