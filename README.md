@@ -31,7 +31,7 @@ $info:          #03a9f4;
 $warning:       #fbe42c;
 $danger:        #ff4136;
 $light:         #eeeeee;
-$dark:          #444444;;
+$dark:          #444444;
 // end example override
 
 // import scss file
