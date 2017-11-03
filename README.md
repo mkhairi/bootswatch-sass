@@ -24,12 +24,16 @@ Or install it yourself as:
 in your application.css.scss
 ```scss
 // example override bootswatch variables
-$brand-primary: #FFCF06;
-$navbar-inverse-link-color:  #444444;
-$state-success-bg: #28b62c;
-$state-warning-bg: #fbe42c;
-$state-danger-bg: #ff4136;
+$primary:       #FFCF06;
+$secondary:     #37474f;
+$success:       #28b62c;
+$info:          #03a9f4;
+$warning:       #fbe42c;
+$danger:        #ff4136;
+$light:         #eeeeee;
+$dark:          #444444;;
 // end example override
+
 // import scss file
 @import "bootswatch/materia/variables";
 @import "bootstrap";
