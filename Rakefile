@@ -3,10 +3,8 @@ require "bundler/gem_tasks"
 THEMES = %w(
  cerulean     
  cosmo 
- custom 
  cyborg  
  darkly 
- default   
  flatly 
  journal   
  litera 
