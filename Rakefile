@@ -24,7 +24,7 @@ THEMES = %w(
  yeti 
 ).freeze
 
-source_dir = "bootswatch-src" 
+source_dir = "bootswatch-src/dist" 
 
 namespace :stylesheets do
   desc "Cleaning stylesheets directory"
