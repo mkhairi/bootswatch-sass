@@ -29,14 +29,14 @@ source_dir = "bootswatch-src/dist"
 namespace :stylesheets do
   desc "Cleaning stylesheets directory"
   task :clean do
-   rm_rf "app/assets/stylesheets/bootswatch"
+   rm_rf "assets/stylesheets/bootswatch"
   end
 
   desc "Copy #{source_dir}/themes/"
   task :copy do
     THEMES.each do |theme|
       src_dir = FileList["#{source_dir}/#{theme}/*.scss"]
-      tgt_dir = "app/assets/stylesheets/bootswatch/#{theme}/"
+      tgt_dir = "assets/stylesheets/bootswatch/#{theme}/"
       mkdir_p tgt_dir
       cp_r src_dir, tgt_dir
     end
@@ -49,7 +49,7 @@ end
 
 desc "Remove minified file .min"
 task :cleanup do
-  Dir.glob('app/assets/**/*.min.*').each do |file|
+  Dir.glob('assets/**/*.min.*').each do |file|
     rm file
   end
 end
