@@ -1,7 +1,7 @@
 require "bootswatch/version"
 
 module Bootswatch
-  #thanks to bwatch-rubygem
+  #thanks to bootstrap-rubygem
   class << self
     # Inspired by Kaminari
     def load!
