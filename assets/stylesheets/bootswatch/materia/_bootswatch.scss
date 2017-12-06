@@ -589,28 +589,10 @@ input[type="checkbox"],
     color: #fff;
   }
 
-  &-primary {
-    background-color: $primary;
-  }
-
-  &-success {
-    background-color: $success;
-  }
-
-  &-danger {
-    background-color: $danger;
-  }
-
-  &-warning {
-    background-color: $warning;
-  }
-
-  &-info {
-    background-color: $info;
-  }
-
-  &-dark {
-    background-color: $dark;
+  @each $color, $value in $theme-colors {
+    &-#{$color} {
+      background-color: $value;
+    }
   }
 
   a:not(.close):not(.btn),
@@ -636,7 +618,7 @@ input[type="checkbox"],
   }
 
   &-warning {
-  	color: $white;
+    color: $white;
   }
 }
 
@@ -669,7 +651,7 @@ input[type="checkbox"],
   &.border-danger,
   &.border-light,
   &.border-dark {
-  	border-width: 1px;
+    border-width: 1px;
   }
 }
 
@@ -688,7 +670,7 @@ input[type="checkbox"],
 }
 
 .modal-content {
-	border-radius: 0.2rem;
+  border-radius: 0.2rem;
   box-shadow: 0 6px 36px rgba(0,0,0,.3);
 }
 
