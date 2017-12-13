@@ -231,10 +231,6 @@ select.form-control {
     &:last-child {
       border-bottom: none;
     }
-
-    &:hover .list-group-item-heading {
-      color: $white;
-    }
   }
 }
 
@@ -335,7 +331,6 @@ select.form-control {
 // Containers ==================================================================
 
 .card {
-  border-color: transparent;
   border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
   overflow: hidden;
 
@@ -351,6 +346,7 @@ select.form-control {
 
   &-header {
     border-bottom-width: 2px;
+    border-color: inherit;
   }
 
   &-footer {
