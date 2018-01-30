@@ -11,17 +11,18 @@ gem 'bootstrap'
 gem 'bootswatch'
 ```
 
+Bootstrap JavaScript depends on jQuery. If you're using Rails 5.1+, add the jquery-rails gem to your Gemfile:
+```ruby
+gem 'jquery-rails'
+```
+
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install bootswatch
-
 ## Usage
-
-in your application.css.scss
+### Stylesheets
+in your ```application.scss```
 ```scss
 // example override bootswatch variables
 $primary:       #FFCF06;
@@ -39,6 +40,24 @@ $dark:          #444444;
 @import "bootstrap";
 @import "bootswatch/materia/bootswatch";
 ```
+
+Make sure the file has .scss extension (or .sass for Sass syntax). If you have just generated a new Rails app, it may come with a .css file instead. If this file exists, it will be served instead of Sass, so rename it:
+
+
+### Javascript
+Add Bootstrap dependencies and Bootstrap to your ```application.js```:
+```js
+//= require jquery3
+//= require popper
+//= require bootstrap
+```
+or  use individual Bootstrap components for ease of debugging
+```js
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+```
+see more on bootstrap [readme](https://github.com/twbs/bootstrap-rubygem)
 
 ## Contributing
 
