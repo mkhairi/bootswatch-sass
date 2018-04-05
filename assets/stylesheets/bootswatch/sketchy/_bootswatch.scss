@@ -40,10 +40,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch" !d
 .btn {
   border-radius: $border-radius;
   text-decoration: none;
-
-  &-warning {
-    color: $white;
-  }
 }
 
 // Typography ==================================================================
@@ -332,7 +328,6 @@ select.form-control {
 
 .card {
   border-radius: 5px 5px 5px 5px/25px 25px 25px 5px;
-  overflow: hidden;
 
   &-outline {
     &-primary,
@@ -347,6 +342,10 @@ select.form-control {
   &-header {
     border-bottom-width: 2px;
     border-color: inherit;
+
+    &:first-child {
+      border-radius: 3px 3px 0 0/23px 23px 0 0;
+    }
   }
 
   &-footer {

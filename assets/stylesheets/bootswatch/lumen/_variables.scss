@@ -35,7 +35,9 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$dark:          $gray-700 !default;
+
+$yiq-contrasted-threshold: 200 !default;
 
 // Fonts
 
@@ -51,6 +53,7 @@ $dropdown-link-color:               rgba(0,0,0,.5) !default;
 
 $nav-tabs-border-color:             $gray-200 !default;
 $nav-tabs-link-hover-border-color:  $nav-tabs-border-color !default;
+$nav-tabs-link-active-color:        $gray-900 !default;
 $nav-tabs-link-active-border-color: $nav-tabs-border-color !default;
 
 // Pagination

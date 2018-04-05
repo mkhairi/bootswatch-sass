@@ -37,6 +37,8 @@ $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-900 !default;
 
+$yiq-contrasted-threshold: 200 !default;
+
 // Components
 
 $border-radius:               0 !default;
@@ -53,7 +55,7 @@ $headings-font-weight:        300 !default;
 
 // Buttons
 
-$input-btn-padding-x:         1rem !default;
+$input-btn-padding-x:         0.5rem !default;
 
 $btn-font-weight:             300 !default;
 

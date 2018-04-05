@@ -121,10 +121,6 @@ $popover-bg:                        $gray-200 !default;
 
 $popover-header-bg:                 $table-hover-bg !default;
 
-// Progress bars
-
-$progress-bar-color:                $primary !default;
-
 // List group
 
 $list-group-bg:                     $gray-200 !default;
@@ -141,3 +137,7 @@ $list-group-action-hover-color:     $white !default;
 
 $breadcrumb-divider-color:          $body-color !default;
 $breadcrumb-active-color:           $body-color !default;
+
+// Code
+
+$pre-color:                         inherit !default;
