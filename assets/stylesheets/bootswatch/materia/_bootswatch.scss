@@ -1,4 +1,4 @@
-// Materia 4.1.1
+// Materia 4.1.2
 // Bootswatch
 
 
@@ -194,6 +194,11 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
       margin-top: 0;
     }
   }
+
+  .btn + .btn,
+  .btn + .btn-group > .dropdown-toggle {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  }
 }
 
 .border-secondary {
@@ -270,6 +275,11 @@ input[type=number],
   &[readonly] {
     box-shadow: none;
     border-bottom: 1px dotted #ddd;
+  }
+
+  &[disabled],
+  &[disabled]::placeholder {
+    color: #ddd;
   }
 
   &:not(textarea) {

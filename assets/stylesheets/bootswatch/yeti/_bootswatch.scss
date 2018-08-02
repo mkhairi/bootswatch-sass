@@ -1,4 +1,4 @@
-// Yeti 4.1.1
+// Yeti 4.1.2
 // Bootswatch
 
 
@@ -345,6 +345,17 @@ label,
   .page-item.disabled {
     .page-link {
       border-color: transparent;
+    }
+  }
+}
+
+.pagination,
+.pagination-lg,
+.pagination-sm {
+  .page-item:first-child,
+  .page-item:last-child {
+    .page-link {
+      border-radius: 3px;
     }
   }
 }
