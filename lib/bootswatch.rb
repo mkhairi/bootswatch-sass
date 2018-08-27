@@ -15,8 +15,6 @@ module Bootswatch
         # The deprecated `sass` gem:
         ::Sass.load_paths << stylesheets_path
       end
-
-      configure_sass
     end
 
     # Paths
