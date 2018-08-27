@@ -37,6 +37,8 @@ $danger:        $red !default;
 $light:         lighten($gray-200, 25%) !default;
 $dark:          $gray-200 !default;
 
+$yiq-contrasted-threshold:  185 !default;
+
 // Body
 
 $body-bg:                   #2B3E50 !default;
@@ -70,7 +72,7 @@ $input-border-color:                transparent !default;
 
 $input-group-addon-color:           $body-color !default;
 
-$custom-file-color:                 $white !default;
+$custom-file-button-color:          $white !default;
 $custom-file-border-color:          $gray-200 !default;
 
 // Dropdowns
