@@ -107,6 +107,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
 
 // Typography ==================================================================
 
+.text-secondary {
+  color: $gray-700 !important;
+}
+
 .blockquote-footer {
   color: $gray-600;
 }
@@ -121,11 +125,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
   &-warning,
   &-danger {
     color: #fff;
-  }
-
-  .thead-dark th {
-    background-color: $primary;
-    border-color: $primary;
   }
 
   &-primary {
