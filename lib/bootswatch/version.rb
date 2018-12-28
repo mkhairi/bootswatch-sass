@@ -1,3 +1,3 @@
 module Bootswatch
-  VERSION  = '4.1.3'
+  VERSION  = '4.2.1'
 end
